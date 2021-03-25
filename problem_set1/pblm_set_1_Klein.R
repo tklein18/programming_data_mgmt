@@ -174,8 +174,10 @@ print(my_500th_bird)
 # Part 5
 
 set.seed(5)
-my_ebird_sample <- my_ebird_taxonomy[sample(x = 1:1000, size = 10)] %>% 
+my_ebird_sample <- my_ebird_taxonomy[sample(x = length(my_ebird_taxonomy), size = 10)] %>% 
   sort()
+
+
 
 # not sure why I'm not getting the same results as
 # the problem set PDF
@@ -199,13 +201,16 @@ actual_sales_2020 <- c(10, 2000, 30, 5, 100, 1000, 90, 73, 22, 53, 42, 85)
 names(actual_sales_2020) <- month.abb
 
 for(m in 1:length(actual_sales_2020)){
+  
   if(actual_sales_2020[m] > 1000 | actual_sales_2020[m] < 10){
+    
     print(paste(
       names(actual_sales_2020[m]), 
       'sales amount of', 
       actual_sales_2020[m], 
       'is out of bounds. Set to NA.'
     ))
+    
     actual_sales_2020[m] <- NA
   }
 }

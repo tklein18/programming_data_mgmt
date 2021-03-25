@@ -1,0 +1,13 @@
+sentiment,review,email,review_dt,phone
+negative,This product stinks.,john@gmail.com,2020-04-04,NA
+positive,Mostly this is a great product.,mark@dept.gov,2020-07-24,NA
+positive,Great product. Call at (555)-666-7777.,frank#jetson.com,2020-02-05,555.666.7777
+positive,My phone is 111.222.3333. GOOD product mostly.,ann@tech.io,2020-01-24,111.222.3333
+positive,Some parts are good but some are ok.,john#@dept.gov,2021-01-04,NA
+positive,I like this product.,bill#@uni.edu,2020-09-06,NA
+unknown,I disklike it so call me at 222-333-4444.,joe#@uni.edu,2020-06-10,222.333.4444
+negative,A terrible product and (333) 444-5555 is my phone.,mike@acme.com,2020-02-15,333.444.5555
+negative,Can call at 444 555 6666. Your product is cheap.,matt#dept.gov,2021-03-07,444.555.6666
+unknown,A stinky product. (333) 444-5555 is my phone.,mike@acme.com,2020-03-01,333.444.5555
+unknown,Your product is so so.,matt@dept.gov,2021-03-06,NA
+negative,An awful product. 3334445555 is my phone.,mike@acme.com,2020-07-19,NA
